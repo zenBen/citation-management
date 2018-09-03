@@ -1,0 +1,8 @@
+\end{ltabulary}
+
+
+\begin{ltabulary}{llL}
+	\multicolumn{3}{l}{{\bf A4 -- Article in conference publication.}} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{l}{{\bf A4 -- Article in conference publication{\it - cont.}}} \\ \hline
+	\endhead

@@ -1,0 +1,36 @@
+% !TEX root = Cowley_CV.tex
+
+\def\TOP{\ding{100} }
+\def\SAM{$\cong$ }
+\def\OA{\sf oa }
+
+\section*{List of Publications}
+
+\ifnum\PUBPG>1
+\paragraph*{Bibliometrics:}
+31 peer-reviewed publications:
+\begin{itemize}
+	\item 19 journal papers, 16 as first author;
+	\item one book, two book chapters, all as first author;
+	\item eight conference proceedings, four as first author;
+	\item monograph doctoral dissertation
+\end{itemize}
+Also, unreviewed works, and software or other research outputs:
+\begin{itemize}
+	\item seven conference posters/oral presentations, and eight invited presentations (see above);
+	\item 12 preprints, eight as first author;
+	\item four software repositories
+\end{itemize}
+
+Publication lists below are categorised according to Finnish National classification system JUFO.
+{\bf Ten most important publications are marked by \TOP}. Open access papers marked: \OA. Papers with equal contributions from first two authors are denoted: \SAM. Citation counts are obtained using {\sf R} platform, from Elsevier Scopus with {\sf scopusAPI} package, and from Google Scholar with {\sf scholar} package. Counts are listed alongside each paper as: {\tt Scopus} | {\tt Scholar}. For forthcoming papers, see personal website.
+
+{\noindent\bf Total citations (excl. est. self-cites) >250 | >800, \quad {\it h}-index 7 | 11 }
+
+\vspace{10pt}
+
+\begin{ltabulary}{lLL}
+	\multicolumn{3}{l}{{\bf A1 -- Original scientific articles.}} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{l}{{\bf A1 -- Original scientific articles{\it - cont.}}} \\ \hline
+	\endhead

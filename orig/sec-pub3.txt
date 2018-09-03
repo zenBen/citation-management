@@ -1,0 +1,8 @@
+& & \quad {\it Note: this is a long-form review released as a book and journal.}
+\end{ltabulary}
+
+\begin{ltabulary}{lL}
+\multicolumn{2}{l}{{\bf A3 -- Contribution to book.}} \\ \hline
+\endfirsthead
+\multicolumn{2}{l}{{\bf A3 -- Contribution to book{\it - cont.}}} \\ \hline
+\endhead
