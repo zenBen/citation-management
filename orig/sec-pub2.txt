@@ -1,7 +1,0 @@
-\end{ltabulary}
-
-\begin{ltabulary}{llL}
-	\multicolumn{3}{l}{{\bf A2 -- Review.}} \\ \hline
-	\endfirsthead
-	\multicolumn{3}{l}{{\bf A2 -- Review{\it - cont.}}} \\ \hline
-	\endhead

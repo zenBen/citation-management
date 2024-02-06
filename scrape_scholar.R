@@ -53,29 +53,3 @@ get_all_abstracts = function(my_id) {
   all_abstracts = sapply(all_publications$pubid, get_abstract)
   return(all_abstracts)
 }
-
-# FUNCTIONS TO REFRESH CITATION COUNTS, FOR:
-# GOOGLE SCHOLAR
-updateScholar <- function(cv_pubs, schorape){
-  for (v in 1:NROW(cv_pubs)){
-    scrapes <- tolower(gsub('[[:punct:] ]+', ' ', as.character(schorape$title)))
-    cv_cite <- tolower(gsub('[[:punct:] ]+', ' ', as.character(cv_pubs[v,]$title)))
-    idx = pmatch(scrapes, cv_cite)
-    if (any(!is.na(idx))){
-      cv_pubs[v,]$google <- as.numeric(schorape[!is.na(idx),]$cites)
-    }
-  }
-  return(cv_pubs)
-}
-# SCOPUS
-updateScopus <- function(cv_pubs, scorape){
-  for (v in 1:NROW(cv_pubs)){
-    scrapes <- tolower(gsub('[[:punct:] ]+', ' ', as.character(scorape$articletitle)))
-    cv_cite <- tolower(gsub('[[:punct:] ]+', ' ', as.character(cv_pubs[v,]$title)))
-    idx = pmatch(scrapes, cv_cite)
-    if (any(!is.na(idx))){
-      cv_pubs[v,]$scopus <- as.numeric(scorape[!is.na(idx),]$timescited)
-    }
-  }
-  return(cv_pubs)
-}

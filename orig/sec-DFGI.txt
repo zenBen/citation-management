@@ -1,0 +1,37 @@
+\begin{ltabulary}{L}
+	\multicolumn{1}{l}{{\bf D -- Publications for professional communities.}} \\ \hline
+	\endfirsthead
+	\multicolumn{1}{l}{{\bf D -- Publications for professional communities{\it - cont.}}} \\ \hline
+	\endhead
+		Veilahti, A. V. P., \& {\bf Cowley, B. U.} (2018, October 29). Neurofeedback Training of ADHD Patients – why we need more research. Retrieved November 30, 2019, from BestPractice Fi website: https://bestprac.fi/2018/10/29/neurofeedback-training-of-adhd-patients-why-we-need-more-research/
+\end{ltabulary}
+
+\begin{ltabulary}{L}
+	\multicolumn{1}{l}{{\bf F – Public artistic and design activities.}} \\ \hline
+	\endfirsthead
+	\multicolumn{1}{l}{{\bf F – Public artistic and design activities{\it - cont.}}} \\ \hline
+	\endhead
+		GREEN MY PLACE serious game, designed and produced by Cowley, originally available at http://greenmyplace.net (website now defunct)
+\end{ltabulary}
+
+\begin{ltabulary}{L}
+	\multicolumn{1}{l}{{\bf G3 -- Doctoral thesis (monograph).}} \\ \hline
+	\endhead
+		{\bf Cowley, B.} (2009). Player Profiling and Modelling in Computer and Video Games (Thesis). School of Computer and Information Engineering. University of Ulster, Coleraine.
+\end{ltabulary}
+
+\begin{ltabulary}{L}
+	\multicolumn{1}{l}{{\bf I -- ICT Software.}} \\ \hline
+	\endhead
+		Computational Testing for Automated Preprocessing - a Matlab toolbox extending EEGLAB functionality for batch processing of EEG -- \url{https://github.com/bwrc/ctap}
+		\\
+		The PSICAT protocol - Primed Subjective-Illusory-Contour Attention Task for studying integrated functional cognitive basis of sustained attention -- \url{https://github.com/zenBen/PSICAT}
+		\\
+		Wisconsin-ish Global-Local Dissociation (WishGLD) protocol for studying attention level with gestalt stimuli -- \url{https://github.com/bwrc/WishGLD}
+		\\
+		Computer Enabled Neuroplasticity Treatment platform for neurofeedback with four or eight electrode Enobio devices -- \url{https://github.com/CBRUhelsinki/CENTplatform}
+		\\
+		Emotional synchrony from biosignals (EMOSYNC): code for signal processing and analysis within and between individuals -- \url{https://github.com/zenBen/emosync}
+		\\
+		DirectX PacMan game with embedded Behavlets calculation, player type classification, and move prediction -- \url{https://github.com/zenBen/DXPacMan}
+\end{ltabulary}

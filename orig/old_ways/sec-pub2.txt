@@ -1,0 +1,16 @@
+
+\begin{ltabulary}{lLL}
+	\multicolumn{3}{l}{{\bf A1 -- Original scientific articles.}} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{l}{{\bf A1 -- Original scientific articles{\it - cont.}}} \\ \hline
+	\endhead
+
+	...
+
+\end{ltabulary}
+
+\begin{ltabulary}{llL}
+	\multicolumn{3}{l}{{\bf A2 -- Review.}} \\ \hline
+	\endfirsthead
+	\multicolumn{3}{l}{{\bf A2 -- Review{\it - cont.}}} \\ \hline
+	\endhead

@@ -9,7 +9,8 @@ searchByString <- function(string, datatype = "application/xml", content = "comp
 	else {
 		library(httr)
 		library(XML)
-		key <- "61b72f5e1b8cc52cf30cf5f68d87cbe9"
+		# key <- "61b72f5e1b8cc52cf30cf5f68d87cbe9"
+		key <- "0f62624bce1a37e09a9d35cc124eee3a"
 		print("Retrieving records.")
 		theURL <- GET("https://api.elsevier.com/content/search/scopus", query = list(apiKey = key, query = string, sort = mySort, httpAccept = datatype, view = content, count = retCount, start = myStart)) ## format the URL to be sent to the API
 		stop_for_status(theURL) ## pass any HTTP errors to the R console

@@ -1,4 +1,4 @@
-& & \quad {\it Note: this is a long-form review released as a book and journal.}
+& & \quad {\it Note: this long-form review is released both as a book and journal.}
 \end{ltabulary}
 
 \begin{ltabulary}{lL}
