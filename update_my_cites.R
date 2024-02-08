@@ -77,7 +77,7 @@ sec1 <- biblio_build(biblio,
                        sum(sco_cite), schlr_prof$total_cites, 
                        get_h(sco_cite), schlr_prof$h_index, 
                        get_i10(sco_cite), schlr_prof$i10_index,
-                       doMARX = FALSE)
+                       doMARX = doMARX)
 
 # COMBINE ALL CITATION-COUNT TABLES TO MAKE PUBLICATIONS TEX FILE
 pubpg <- "\\ifnum\\PUBPG>2\n\n"
