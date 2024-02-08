@@ -8,9 +8,9 @@
 
 \vspace{25pt}
 
-Publication lists below are categorised according to Finnish National classification system JUFO.
-%{\bf Ten most important publications are marked by \TOP}.
-Open access papers marked: \OA.
-Papers with equal contributions from main authors are denoted: \SAM.
-Citation counts are obtained using {\sf R} platform, from Elsevier Scopus with {\sf scopusAPI} package, and from Google Scholar with {\sf scholar} package.
+Publication lists below are categorised according to Finnish National classification system JUFO. 
+{\bf The most important publications are marked by \TOP}. 
+Open access papers marked: \OA. 
+Papers with equal contributions from main authors are denoted: \SAM. 
+Citation counts are obtained using {\sf R} platform, from Elsevier Scopus with {\sf scopusAPI} package, and from Google Scholar with {\sf scholar} package. 
 Citation counts are listed beside each paper as: {\tt Scopus} | {\tt Scholar}.

@@ -25,7 +25,7 @@ sco_pubs <- extractXML(theXML)
 sco_cite <- as.numeric(sco_pubs$timescited)
 
 ## UPDATE CITATION COUNTS IN ORIGINAL DATA AND WRITE TO HANDY FILES, THEN MAKE LATEX TABLES ----
-doMARX <- FALSE # add identifying marks from csv sources before each publication
+doMARX <- TRUE # add identifying marks from csv sources before each publication
 doNUMS <- FALSE # add consecutive number of each publication after each publication
 
 NUM <- 0 # how many publications we have to start
@@ -74,7 +74,10 @@ biblio <- read_file("orig/sec-biblio.txt")
 sec1 <- biblio_build(biblio, 
                        jrnls, chaps, confs, pstrs, prpts, books, 
                        A1.1st, A2.1st, A3.1st, A4.1st, B1.1st, B3.1st, C.1st,
-                       sum(sco_cite), schlr_prof$total_cites, get_h(sco_cite), schlr_prof$h_index, doMARX = FALSE)
+                       sum(sco_cite), schlr_prof$total_cites, 
+                       get_h(sco_cite), schlr_prof$h_index, 
+                       get_i10(sco_cite), schlr_prof$i10_index,
+                       doMARX = FALSE)
 
 # COMBINE ALL CITATION-COUNT TABLES TO MAKE PUBLICATIONS TEX FILE
 pubpg <- "\\ifnum\\PUBPG>2\n\n"
@@ -88,5 +91,7 @@ output <- read_file("orig/sec-output.txt")
 output <- biblio_build(output, 
                        jrnls, chaps, confs, pstrs, prpts, books, 
                        A1.1st, A2.1st, A3.1st, A4.1st, B1.1st, B3.1st, C.1st,
-                       sum(sco_cite), schlr_prof$total_cites, get_h(sco_cite), schlr_prof$h_index)
+                       sum(sco_cite), schlr_prof$total_cites, 
+                       get_h(sco_cite), schlr_prof$h_index, 
+                       get_i10(sco_cite), schlr_prof$i10_index)
 write_file(output, outfile)

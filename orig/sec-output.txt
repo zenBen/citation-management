@@ -3,17 +3,18 @@
 \noindent%
 \begin{table*}[!h]
 	\centering
-	\caption*{\bf \TNK{7} Research Output}
+	\caption*{\bf \TNK{9} Research Output}
 	\begin{tabularx}{\textwidth}{X}
-    \hline
+    \toprule
 	\end{tabularx}
 \end{table*}
 
-I have produced substantial contributions to research in computer science (player modelling), cognitive science/neuroscience, and psychophysiology.
+\qquad I have produced substantial contributions to research in computer science (player modelling), cognitive science/neuroscience, psychophysiology, and collaborative learning. 
 % Impactful papers in these areas include, for example:
 % \begin{itemize}
-%   \item Cowley, \& Charles, (2016). Behavlets: a Method for Practical Player Modelling using Psychology-Based Player Traits and Domain Specific Features. 	User Modeling and User-Adapted Interaction, 26(2), 257–306. $\rightarrow$ JUFO 3 venue
-%   \item Cowley, {\it et al}, (2008). Toward an understanding of flow in video games. Computers in Entertainment, 6(2), 1–27. $\rightarrow$ >500 citations
-%   \item Cowley, {\it et al}, (2016). The Psychophysiology Primer: a guide to methods and a broad review with a focus on human–computer interaction. Foundations and Trends in HCI, 9(3–4), 151–308. $\rightarrow$ field-leading handbook
+%    \item Cowley, \& Charles, (2016). Behavlets: a Method for Practical Player Modelling using Psychology-Based Player Traits and Domain Specific Features. 	User Modeling and User-Adapted Interaction, 26(2), 257–306. $\rightarrow$ JUFO 3 venue
+%    \item Cowley, {\it et al}, (2008). Toward an understanding of flow in video games. Computers in Entertainment, 6(2), 1–27. $\rightarrow$ >700 citations
+%    \item Cowley, {\it et al}, (2016). The Psychophysiology Primer: a guide to methods and a broad review with a focus on human–computer interaction. Foundations and Trends in HCI, 9(3–4), 151–308. $\rightarrow$ field-leading handbook
+%    \item Ahonen, L., Cowley, B. U., Hellas, A., \& Puolamäki, K. (2018). Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environment. Scientific reports, 8(1), 3138. $\rightarrow$ 
 % \end{itemize}
 I have also produced publications for professional communities \href{https://bestprac.fi/2018/10/29/neurofeedback-training-of-adhd-patients-why-we-need-more-research/}{(Veilahti \& Cowley, 2018)}, as well as artistic works (e.g. design/production of GREEN MY PLACE serious game).

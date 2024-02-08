@@ -10,6 +10,9 @@ get_h <- function(vec){
   return(h)
 }
 
+get_i10 <- function(vec){
+  return(sum(vec > 9))
+}
 
 # FUNCTIONS TO REFRESH CITATION COUNTS, FOR:
 # GOOGLE SCHOLAR
@@ -52,7 +55,7 @@ biblio_header <- function(content, sco_n, schlr_n, sco_h, schlr_h){
 }
 
 # ADD LIVE CITE COUNTS AND H-INDEX TO GIVEN HEADER
-biblio_build <- function(content, jrnls, chaps, confs, pstrs, prpts, books, A1.1st, A2.1st, A3.1st, A4.1st, B1.1st, B3.1st, C.1st, sco_n, schlr_n, sco_h, schlr_h, doMARX = FALSE){
+biblio_build <- function(content, jrnls, chaps, confs, pstrs, prpts, books, A1.1st, A2.1st, A3.1st, A4.1st, B1.1st, B3.1st, C.1st, sco_n, schlr_n, sco_h, schlr_h, sco_i10, schlr_i10, doMARX = FALSE){
   if (!doMARX){
     content <- gsub('Open access', '%Open access', content)
     content <- gsub('Papers with', '%Papers with', content)
@@ -62,31 +65,42 @@ biblio_build <- function(content, jrnls, chaps, confs, pstrs, prpts, books, A1.1
   }else{
     book.1st <- A3.1st + C.1st
   }
-  dat <- paste0("{\\it ", jrnls + chaps + confs + books, " peer reviewed publications}:\\quad",
-                jrnls, " journal papers (", A1.1st + A2.1st + 1, " as first or joint-first author); ", #TODO hack for Ahonen SciRep paper
-                books - 1, " book, ", chaps, " book chapters, (", book.1st, " as first author); ",
-                confs, " conference proceedings, (", A4.1st, " as first author); ",
-                "monograph doctoral dissertation\\\\",
-                "{\\it Unreviewed works, and software or other research outputs}:\\quad",
-                pstrs, " conference posters/oral presentations, and eight invited presentations; ",
-                prpts, " preprints, (", B1.1st, " as first author); ",
-                "6 significant software repositories\\\\", #TODO how to count repos??
+  dat <- paste0("{\\it ", jrnls + chaps + confs + books, " peer reviewed publications}:",
+                "\\begin{itemize}\n \\item ",
+                jrnls, " journal papers (", A1.1st + A2.1st + 1, " as first or joint-first author); \n \\item ", #TODO hack for Ahonen SciRep paper
+                books - 1, " book, ", chaps, " book chapters (", book.1st, " as first author); \n \\item ",
+                confs, " conference proceedings (", A4.1st, " as first author); \n \\item ",
+                "monograph doctoral dissertation\n \\end{itemize} \\\\ \n",
+                "{\\it Unreviewed works, and software or other research outputs}:\n",
+                "\\begin{itemize}\n \\item ",
+                pstrs, " conference posters/oral presentations, and over 10 invited presentations; \n \\item ", #FIXME HOW TO COUNT INVITED PRESENTATIONS?
+                prpts, " preprints (", B1.1st, " as first author); \n \\item ",
+                "6 significant software repositories\n \\end{itemize} \\\\ \n",                                          #FIXME HOW TO COUNT CODE REPOS??
                 "{\\noindent\\bf Total citations (Scopus|Scholar): ", sco_n, " | ", schlr_n, 
                 ", \\quad {\\it h}-index ", sco_h, " | ", schlr_h, 
+                ", \\quad {\\it i10}-index ", sco_i10, " | ", schlr_i10, 
                 " }\n\n\\vspace{10pt}\n")
-  ltb <- ltabulary("Bibliometrics", "L", dat)
+  ltb <- ltabulary("Bibliometrics", "L", dat, FALSE)
   tex <- paste0(content, "\n ", ltb)
   return(tex)
 }
 
 # Make a Latex ltabulary table with given title, cols, and content
-ltabulary <- function(title, cols, content){
+ltabulary <- function(title, cols, content, headerline = TRUE){
   colN <- nchar(cols)
+  if (headerline){
+    headerline = ' \\hline'
+  }else{
+    headerline = ''
+  }
   tex <- paste0("\\begin{ltabulary}{", cols, "}\n\\multicolumn{", colN, 
                 "}{l}{{\\bf ", title, 
-                ".}} \\\\ \\hline\n\\endfirsthead\n\\multicolumn{", colN, "}{l}{{\\bf ", 
-                title, "{\\it - cont.}}} \\\\ \\hline\n\\endhead\n",
-                   content, "\n\\end{ltabulary}\n\n\n")
+                ".}} \\\\", headerline, 
+                "\n\\endfirsthead\n\\multicolumn{", colN, 
+                "}{l}{{\\bf ", title, 
+                "{\\it - cont.}}} \\\\", headerline, 
+                "\n\\endhead\n", content, 
+                "\n\\end{ltabulary}\n\n\n")
   return(tex)
 }
 
