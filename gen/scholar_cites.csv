@@ -1,70 +1,67 @@
 "","title","year","cites"
-"1","Toward an understanding of flow in video games",2008,721
-"2","A review of the use of psychophysiological methods in game research",2011,391
-"3","The psychophysiology primer: a guide to methods and a broad review with a focus on human–computer interaction",2016,157
-"4","Learning principles and interaction design for ‘Green My Place’: A massively multiplayer serious game",2011,74
-"5","Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environment",2018,72
-"6","Behavlets: a method for practical player modelling using psychology-based player traits and domain specific features",2016,58
-"7","Cognitive collaboration found in cardiac physiology: Study in classroom environment",2016,57
-"8","Cardiovascular physiology predicts learning effects in a serious game activity",2013,55
-"9","Feasibility of an electrodermal activity ring prototype as a research tool",2015,44
-"10","Real-time rule-based classification of player types in computer games",2013,41
-"11","Learning when serious: Psychophysiological evaluation of a technology-enhanced learning game",2014,40
-"12","Augmented virtual reality meditation: Shared dyadic biofeedback increases social presence via respiratory synchrony",2021,38
-"13","Learning loops–interactions between guided reflection and experience‐based learning in a serious game activity",2013,38
-"14","User-system-experience model for user centered design in computer games",2006,36
-"15","Computer enabled neuroplasticity treatment: a clinical trial of a novel design for neurofeedback therapy in adult ADHD",2016,35
-"16","Experience assessment and design in the analysis of gameplay",2014,34
-"17","Resting-state network plasticity induced by music therapy after traumatic brain injury",2021,27
-"18","Analyzing player behavior in Pacman using feature-driven decision theoretic predictive modeling",2009,27
-"19","Computational testing for automated preprocessing: a Matlab toolbox to enable large scale electroencephalography data processing",2017,25
-"20","The link between flow and performance is moderated by task experience",2021,24
-"21","Learning in balance: Using oscillatory EEG biomarkers of attention, motivation and vigilance to interpret game-based learning",2014,23
-"22","Improved auditory function caused by music versus foreign language training at school age: is there a difference?",2022,19
-"23","Green My Place: Evaluation of a Serious Social Online Game Designed to Promote Energy Efficient Behaviour Change",2017,18
-"24","Flow experiences during visuomotor skill acquisition reflect deviation from a power-law learning curve, but not overall level of skill",2019,17
-"25","Epileptic electroencephalography profile associates with attention problems in children with fragile X syndrome: review and case series",2016,17
-"26","Poker as a Domain of Expertise",2020,16
-"27","The QUARTIC Process Model for Developing Serious Games: ‘Green My Place’ Case Study",2014,16
-"28","Player profiling and modelling in computer and video games",2009,14
-"29","Inter-brain synchronization occurs without physical co-presence during cooperative online gaming",2022,13
-"30","Generalised player modelling: why artificial intelligence in games should incorporate meaning, with a Formalism for so doing",2020,13
-"31","The QUARTIC process model to support serious games development for contextualized competence-based learning and assessment",2012,13
-"32","Computational testing for automated preprocessing 2: practical demonstration of a system for scientific data-processing workflow management for high-volume EEG",2018,10
-"33","Reduced power in fronto-parietal theta EEG linked to impaired attention-sampling in adult ADHD",2022,9
-"34","Evaluation of neurofeedback learning in patients with ADHD: A systematic review",2023,8
-"35","High performance cognition: information-processing in complex skills, expert performance, and flow",2020,8
-"36","Neurofeedback learning is skill acquisition but does not guarantee treatment benefit: continuous-time analysis of learning-curves from a clinical trial for ADHD",2021,6
-"37","Psychometric analysis of the flow short scale translated to Finnish",2022,5
-"38","Short Literature Review for a General Player Model Based on Behavlets",2016,5
-"39","Psychophysiology and high-performance cognition-a brief review of the literature",2015,5
+"1","Toward an understanding of flow in video games",2008,740
+"2","A review of the use of psychophysiological methods in game research",2011,406
+"3","The psychophysiology primer: a guide to methods and a broad review with a focus on human–computer interaction",2016,169
+"4","Learning principles and interaction design for ‘Green My Place’: A massively multiplayer serious game",2011,75
+"5","Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environment",2018,74
+"6","Cognitive collaboration found in cardiac physiology: Study in classroom environment",2016,59
+"7","Behavlets: a method for practical player modelling using psychology-based player traits and domain specific features",2016,59
+"8","Cardiovascular physiology predicts learning effects in a serious game activity",2013,59
+"9","Augmented virtual reality meditation: Shared dyadic biofeedback increases social presence via respiratory synchrony",2021,49
+"10","Feasibility of an electrodermal activity ring prototype as a research tool",2015,46
+"11","Learning when serious: Psychophysiological evaluation of a technology-enhanced learning game",2014,44
+"12","Learning loops–interactions between guided reflection and experience‐based learning in a serious game activity",2013,42
+"13","Real-time rule-based classification of player types in computer games",2013,41
+"14","Computer enabled neuroplasticity treatment: a clinical trial of a novel design for neurofeedback therapy in adult ADHD",2016,37
+"15","User-system-experience model for user centered design in computer games",2006,34
+"16","Resting-state network plasticity induced by music therapy after traumatic brain injury",2021,33
+"17","Experience assessment and design in the analysis of gameplay",2014,32
+"18","The link between flow and performance is moderated by task experience",2021,29
+"19","Analyzing player behavior in Pacman using feature-driven decision theoretic predictive modeling",2009,29
+"20","Computational testing for automated preprocessing: a Matlab toolbox to enable large scale electroencephalography data processing",2017,27
+"21","Learning in balance: using oscillatory EEG biomarkers of attention, motivation and vigilance to interpret game-based learning",2014,24
+"22","Improved auditory function caused by music versus foreign language training at school age: is there a difference?",2022,23
+"23","Green My Place: Evaluation of a Serious Social Online Game Designed to Promote Energy Efficient Behaviour Change",2017,21
+"24","Inter-brain synchronization occurs without physical co-presence during cooperative online gaming",2022,19
+"25","Epileptic electroencephalography profile associates with attention problems in children with fragile X syndrome: review and case series",2016,18
+"26","Flow experiences during visuomotor skill acquisition reflect deviation from a power-law learning curve, but not overall level of skill",2019,17
+"27","Poker as a domain of expertise",2020,16
+"28","Generalised player modelling: why artificial intelligence in games should incorporate meaning, with a Formalism for so doing",2020,13
+"29","The QUARTIC process model to support serious games development for contextualized competence-based learning and assessment",2012,13
+"30","Player profiling and modelling in computer and video games",2009,13
+"31","Reduced power in fronto-parietal theta EEG linked to impaired attention-sampling in adult ADHD",2022,12
+"32","Computational testing for automated preprocessing 2: practical demonstration of a system for scientific data-processing workflow management for high-volume EEG",2018,11
+"33","Evaluation of neurofeedback learning in patients with ADHD: A systematic review",2023,9
+"34","High performance cognition: information-processing in complex skills, expert performance, and flow",2020,9
+"35","Psychometric analysis of the flow short scale translated to Finnish",2022,8
+"36","Neurofeedback learning is skill acquisition but does not guarantee treatment benefit: continuous-time analysis of learning-curves from a clinical trial for ADHD",2021,8
+"37","The QUARTIC Process Model for Developing Serious Games: ‘Green My Place’ Case Study",2014,7
+"38","Psychophysiology and high-performance cognition-a brief review of the literature",2015,5
+"39","Studying the integrated functional cognitive basis of sustained attention with a primed subjective-illusory-contour attention task",2018,4
 "40","Arousing learning: Real-time emotion recognition for technology-enhanced learning",2013,4
-"41","Seeking flow from fine-grained log data",2022,3
-"42","Behavlet analytics for player profiling and churn prediction",2020,3
-"43","Temporal pattern models for physiological arousal during a steering task",2019,3
-"44","Studying the integrated functional cognitive basis of sustained attention with a primed subjective-illusory-contour attention task",2018,3
-"45","Assessment of the Emotional State by Psycho-physiological and Implicit Measurements",2011,3
-"46","Global learning, local Flow: subjective Flow report responds to proximal performance reference-level in a longitudinally-measured game-like task",2018,2
-"47","How to advance general game playing artificial intelligence by player modelling",2016,2
-"48","Forest, Trees, Dynamics: Results from a Novel Wisconsin Card Sorting Test Variant Protocol for Studying Global-Local Attention and Complex Cognitive Processes",2016,2
-"49","Artificial Intelligence in Education as a Rawlsian Massively Multiplayer Game: A Thought Experiment on AI Ethics",2022,1
-"50","Utility of a Behavlets approach to a Decision theoretic predictive player model",2016,1
-"51","Experimental Investigation of Saliency Processing in ADHD",2013,1
-"52","Link between flow and performance updated with physiological markers",2023,0
-"53","Impaired integration of subjective illusory contours in adults with ADHD",2023,0
-"54","Learning in Human and Machines. Tic Tac Toe moves assessment.",2023,0
-"55","Learning and reaction time variability during continuous performance test in adults with ADHD",2023,0
-"56","Physiological response to the steering gameplay is moderated by overall personal task performance",2023,0
-"57","Children’s inhibition skills are associated with their P3a latency—results from an exploratory study",2022,0
-"58","Is mild ADHD beneficial: Brain criticality is maximal with moderate ADHD symptom scores",2022,0
-"59","Adaptive Artificial Intelligence in Games: Issues, Requirements, and a Solution through Behavlets-based General Player Modelling",2016,0
-"60","Computational testing for automated preprocessing: a matlab toolbox for better electroencephalography data processing.",2016,0
-"61","Short Literature Review for a General Player Model Based on Behavlets",2016,0
-"62","Utility of a Behavlets approach to a Decision theoretic predictive player model",2016,0
-"63","Re: Know Ecosystem Plan",2015,0
-"64","An EEG study of Fronto-Parietal Network Asymmetry in a global-local dissociation task:[poster]",2015,0
-"65","Quantifying Mental Workload With Minimally Disruptive Measurements Of Cardiac And Electrodermal Activity In Real-Life Situations:[poster]",2015,0
-"66","Attention and the Gestalt.: Experimental Investigation of Gestalt Imagery Processing in ADHD using Brain Imaging",2014,0
-"67","CENT Computer Enabled Neuroplasticity Treatment",2012,0
-"68","THE EFFECT OF REFLECTION ON LEARNING IN A SERIOUS GAME ACTIVITY",NA,0
-"69","Visual Saliency and Attention",NA,0
+"41","Artificial Intelligence in Education as a Rawlsian Massively Multiplayer Game: A Thought Experiment on AI Ethics",2022,3
+"42","Seeking flow from fine-grained log data",2022,3
+"43","Behavlet analytics for player profiling and churn prediction",2020,3
+"44","Temporal pattern models for physiological arousal during a steering task",2019,3
+"45","How to advance general game playing artificial intelligence by player modelling",2016,3
+"46","Assessment of the Emotional State by Psycho-physiological and Implicit Measurements",2011,3
+"47","Forest, Trees, Dynamics: Results from a Novel Wisconsin Card Sorting Test Variant Protocol for Studying Global-Local Attention and Complex Cognitive Processes",2016,2
+"48","Children’s inhibition skills are associated with their P3a latency—results from an exploratory study",2022,1
+"49","Experimental Investigation of Saliency Processing in ADHD",2013,1
+"50","Link between flow and performance updated with physiological markers",2023,0
+"51","Impaired integration of subjective illusory contours in adults with ADHD",2023,0
+"52","Learning in Human and Machines. Tic Tac Toe moves assessment.",2023,0
+"53","Learning and reaction time variability during continuous performance test in adults with ADHD",2023,0
+"54","Physiological response to the steering gameplay is moderated by overall personal task performance",2023,0
+"55","Is mild ADHD beneficial: Brain criticality is maximal with moderate ADHD symptom scores",2022,0
+"56","Adaptive Artificial Intelligence in Games: Issues, Requirements, and a Solution through Behavlets-based General Player Modelling",2016,0
+"57","Computational testing for automated preprocessing: a matlab toolbox for better electroencephalography data processing.",2016,0
+"58","Utility of a Behavlets approach to a Decision theoretic predictive player model",2016,0
+"59","Re: Know Ecosystem Plan",2015,0
+"60","An EEG study of Fronto-Parietal Network Asymmetry in a global-local dissociation task:[poster]",2015,0
+"61","Quantifying Mental Workload With Minimally Disruptive Measurements Of Cardiac And Electrodermal Activity In Real-Life Situations:[poster]",2015,0
+"62","Attention and the Gestalt.: Experimental Investigation of Gestalt Imagery Processing in ADHD using Brain Imaging",2014,0
+"63","CENT Computer Enabled Neuroplasticity Treatment",2012,0
+"64","Review on psychophysiological methods in game research",2010,0
+"65","THE EFFECT OF REFLECTION ON LEARNING IN A SERIOUS GAME ACTIVITY",NA,0
+"66","Visual Saliency and Attention",NA,0
