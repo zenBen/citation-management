@@ -57,7 +57,7 @@ biblio_header <- function(content, sco_n, schlr_n, sco_h, schlr_h){
 # ADD LIVE CITE COUNTS AND H-INDEX TO GIVEN HEADER
 biblio_build <- function(content, jrnls, chaps, confs, pstrs, prpts, books, A1.1st, A2.1st, A3.1st, A4.1st, B1.1st, B3.1st, C.1st, sco_n, schlr_n, sco_h, schlr_h, sco_i10, schlr_i10, doMARX = FALSE){
   if (!doMARX){
-    # content <- gsub('\\B{The most', '\\B{The most', content)
+    # content <- gsub('\\B{The most', '%\\B{The most', content)
     content <- gsub('Papers with', '%Papers with', content)
   }
   if (A3.1st + C.1st == books + chaps){

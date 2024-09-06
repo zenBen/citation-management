@@ -1,13 +1,19 @@
 % !TEX root = Cowley_CV.tex
 
 \noindent%
-\begin{table*}[!h]
-	\centering
-	\caption*{\bf \TNK{9} Research Output}
-	\begin{tabularx}{\textwidth}{X}
-    \toprule
-	\end{tabularx}
-\end{table*}
+\begin{minipage}{\linewidth}
+	\raggedright
+	\B{\TNK{9} Research Output}
+	\begin{tabulary}{\textwidth}{l}
+		\toprule
+	\end{tabulary}
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\if\BIBLI0 %% DO SHORT VERSION
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\else %%DO LONGER VERSION
 
 \qquad I have produced substantial contributions to research in computer science (player modelling), cognitive science/neuroscience, psychophysiology, and collaborative learning. 
 % Impactful papers in these areas include, for example:
@@ -18,3 +24,5 @@
 %    \item Ahonen, L., Cowley, B. U., Hellas, A., \& Puolamäki, K. (2018). Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environment. Scientific reports, 8(1), 3138. $\rightarrow$ 
 % \end{itemize}
 I have also produced publications for professional communities \href{https://bestprac.fi/2018/10/29/neurofeedback-training-of-adhd-patients-why-we-need-more-research/}{(Veilahti \& Cowley, 2018)}, as well as artistic works (e.g. design/production of GREEN MY PLACE serious game).
+
+\fi %end LONGER
