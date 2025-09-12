@@ -3,9 +3,9 @@
 \noindent%
 \begin{minipage}{\linewidth}
 	\raggedright
-	\B{\TNK{9} Research Output}
-	\begin{tabulary}{\textwidth}{l}
-		\toprule
+	\B{\TNK{9} Research Output}\\
+	\begin{tabulary}{\textwidth}{X}
+		\toprule\hspace{480}
 	\end{tabulary}
 \end{minipage}
 
